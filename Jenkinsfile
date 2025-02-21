@@ -30,10 +30,10 @@ pipeline {
             }
         }
         stage('Deploy') {
- steps {
+            steps {
                 echo 'In this step, we deploy our porject'
                 echo 'Depending on the context, we may publish the project artifact or upload pickle files'
             }
-        }
-    }
+        }
+    }
 }
